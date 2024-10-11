@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    background-color: darkgoldenrod;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+padding: 10px;}
+
+#counter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+#counterDisply{
+    
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#counter button{
+    border: 0;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#countAdd{
+    background-color: palevioletred;
+}
+
+#countSub{
+    background-color: purple;
+}
+
